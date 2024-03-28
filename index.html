@@ -3,6 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Maldevtech</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<link rel="stylesheet" href="./styles.css">
 	
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
@@ -19,18 +20,23 @@
 	  scale: 1.00,
 	  scaleMobile: 1.00,
 	  backgroundAlpha:0.0,
-		scale:1.00,
-		scaleMobile:1.00,
-		color2:0xff00f0,
-		wingSpan:40.00,
-		separation:100.00,
-		aligment:77.00,
-		cohesion:5.00,
-		quantity:1.00,
-
-
+	scale:1.00,
+	scaleMobile:1.00,
+	color2:0xff00f0,
+	wingSpan:40.00,
+	separation:100.00,
+	aligment:77.00,
+	cohesion:5.00,
+	quantity:1.00,
 
 	})
+			setTimeout(()=>{
+			const main = document.querySelector('main')
+			main.style.opacity = 1
+			main.style.opacity = 1
+			main.style.filter='blur(0px)' 
+
+			}, 1000)
 
 		})
 	</script>

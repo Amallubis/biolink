@@ -33,6 +33,13 @@ header{
 
 }
 
+main {
+	position: relative;
+	opacity: 0;
+	filter: blur(10px);
+	transition: opacity 2s ease-in-out,filter 2s ease-in-out;
+}
+
 header > img {
 	width: 6em;
 	height: 6em;
